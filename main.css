@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.layout {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#fecafa, #efafcf)
+}
+
+h1 {
+  font-size: 10vh;
+  color: white;
+}
